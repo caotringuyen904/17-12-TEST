@@ -12,6 +12,7 @@
   text-decoration: none;
   text-transform: capitalize;
   transition:all .2s linear;
+  scroll-behavior: smooth;
 }
 
 *::selection{
@@ -490,6 +491,15 @@ border-radius: .5rem;
 
 }
 
+/* cart.html start */
+
+header .navbar .cart{
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: .5rem;
+}
 
 
 
